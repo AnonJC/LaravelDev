@@ -1,6 +1,6 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
+    "name": "AnonJC/LaravelDev",
+    "description": "The Laravel Framework for ground up Development.",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "type": "project",
