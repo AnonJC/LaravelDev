@@ -16,12 +16,14 @@
         "yajra/laravel-datatables-oracle": "^v8.8.0"
     },
     "require-dev": {
-        "beyondcode/laravel-dump-server": "^1.0",
-        "filp/whoops": "^2.0",
-        "fzaninotto/faker": "^1.4",
-        "mockery/mockery": "^1.0",
-        "nunomaduro/collision": "^2.0",
-        "phpunit/phpunit": "^7.0"
+        "filp/whoops": "^2.2.1",
+        "fzaninotto/faker": "^v1.8.0",
+        "laravel/tinker": "^v1.0.7",
+        "mockery/mockery": "^1.1.0",
+        "nunomaduro/collision": "^v2.0.3",
+        "phpunit/phpunit": "^7.3.5",
+        "sebastian/phpcpd": "^4.0.0",
+        "zendframework/zend-coding-standard": "^1.0.0"
     },
     "autoload": {
         "classmap": [
@@ -55,12 +57,12 @@
             "@php artisan package:discover"
         ],
         "check": [
-            "@clear-all",
+            "@clean",
             "@cs-check",
             "@check-cpd",
             "@test"
         ],
-        "clear-all": [
+        "clean": [
             "php artisan view:clear",
             "php artisan config:clear",
             "php artisan cache:clear"
